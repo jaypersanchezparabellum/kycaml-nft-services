@@ -3,7 +3,8 @@
   "version": "0.0.1",
   "private": true,
   "scripts": {
-    "start": "node ./bin/www"
+    "start": "node ./bin/www",
+    "build": "npm run clean && webpack"
   },
   "dependencies": {
     "body-parser": "^1.19.0",
@@ -33,5 +34,6 @@
   "bugs": {
     "url": "https://github.com/jaypersanchezparabellum/kycaml-nft-services/issues"
   },
-  "homepage": "https://github.com/jaypersanchezparabellum/kycaml-nft-services#readme"
+  "homepage": "https://github.com/jaypersanchezparabellum/kycaml-nft-services#readme",
+  "devDependencies": {}
 }
